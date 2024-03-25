@@ -820,11 +820,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-/* .bg-\[url\(\'\.\/assets\/header\.webp\'\)\] {
+.bg-\[url\(\'\.\/assets\/header\.webp\'\)\] {
   background-image: url('./assets/header.webp');
-} */
+}
 
-/* .bg-\[url\(\'\.\/assets\/product-1s\.webp\'\)\] {
+.bg-\[url\(\'\.\/assets\/product-1s\.webp\'\)\] {
   background-image: url('./assets/product-1s.webp');
 }
 
@@ -854,7 +854,7 @@ video {
 
 .bg-\[url\(\'\.\/assets\/products\/perfume\.jpg\'\)\] {
   background-image: url('./assets/products/perfume.jpg');
-} */
+}
 
 .bg-cover {
   background-size: cover;
