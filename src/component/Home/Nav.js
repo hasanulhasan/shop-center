@@ -1,9 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image'
-import logo from '../assets/lws-logo-black.svg'
-import Menu from '../assets/svg/menu.svg'
-import Avatar from '../assets/svg/avatar.svg'
-import ShoppingCart from '../assets/svg/shopping-Cart.svg'
+import logo from './../../app/assets/lws-logo-black.svg'
+import Menu from './../../app//assets/svg/menu.svg'
+import Avatar from './../../app//assets/svg/avatar.svg'
+import ShoppingCart from './../../app//assets/svg/shopping-Cart.svg'
+import Link from 'next/link'
 
 
 export default function Nav() {
@@ -12,9 +13,9 @@ export default function Nav() {
     <div className="flex gap-5 items-center justify-between lg:w-8/12 text-[#1A1A1A]">
       <div className="flex items-center gap-2">
         <Image src={Menu} className="lg:hidden w-5 h-5" alt=""/>
-        <a href="./index.html">
+        <Link href="/">
           <Image src={logo} className="h-10" alt='logo'/>
-        </a>
+        </Link>
       </div>
     </div>
     <div className="flex items-center justify-end gap-2 lg:gap-5 lg:w-4/12">

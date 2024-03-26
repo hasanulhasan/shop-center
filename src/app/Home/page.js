@@ -1,10 +1,10 @@
 "use client";
-import Footer from "./Footer";
-import Hero from "./Hero";
-import Nav from "./Nav";
+import Footer from "../../component/Home/Footer";
+import Hero from "../../component/Home/Hero";
+import Nav from "../../component/Home/Nav";
 import data from "../../data/data.json";
 import Product from "@/component/Product";
-import Subscription from "./Subscription";
+import Subscription from "../../component/Home/Subscription";
 
 export default function HomePage() {
 
